@@ -1,0 +1,32 @@
+body {
+  background-image: linear-gradient(to top, #03045e, #131448, #141697);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  background-color: rgb(212, 235, 239);
+  list-style: none;
+  color: black;
+}
+
+ul > li:nth-child(odd) {
+  background-color: #e8eef3;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+ul > li > div > span {
+  transition: 0.3s;
+}
+
+.icontoggle {
+  transform: rotate(180deg);
+}
+
+p {
+  transition: 1s;
+  overflow: hidden;
+}
